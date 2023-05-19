@@ -124,7 +124,7 @@ A high-level data model or flow diagram. Pick which is appropriate.
 graph LR
   API -->|Update| Q
   Website -->|Update| Q
-  App Clients -->|Update| Q
+  AppClients -->|Update| Q
   Q(Update Queue) -->|rows| C[queue processor]
   C -->|nats| D[Backing Service 1]
   C -->|nats| E[Backing Service 2]
